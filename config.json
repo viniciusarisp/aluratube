@@ -1,0 +1,134 @@
+{
+  "name": "Vinicius Aristimunha (Ari)",
+  "job": "IT Student",
+  "github": "viniciusarisp",
+  "playlists": {
+    "jogos": [
+      {
+        "tittle": "Brazil’s Lula da Silva, explained",
+        "url": "https://www.youtube.com/watch?v=rtAWPMLYMpQ",
+        "thumb": "https://i.ytimg.com/vi/rtAWPMLYMpQ/maxresdefault.jpg"
+      },
+      {
+        "tittle": "Joji - Glimpse of Us",
+        "url": "https://www.youtube.com/watch?v=FvOpPeKSf_4",
+        "thumb": "https://i.ytimg.com/vi/FvOpPeKSf_4/maxresdefault.jpg"
+      },
+      {
+        "tittle": "Nagas imitando o Guiven idêntico kkkkkkkkkkk",
+        "url": "https://www.youtube.com/watch?v=kh0k_W40F14",
+        "thumb": "https://i.ytimg.com/vi/kh0k_W40F14/maxresdefault.jpg"
+      },
+      {
+        "tittle": "Thebausffs is Playing Against the New Champ K'Sante",
+        "url": "https://www.youtube.com/watch?v=LAaG3D5ZYjk",
+        "thumb": "https://i.ytimg.com/vi/LAaG3D5ZYjk/maxresdefault.jpg"
+      },
+      {
+        "tittle": "Joji - Glimpse Of Us X Attack On Titan OST - Call Of Silence (NEWJOR Mashup)",
+        "url": "https://www.youtube.com/watch?v=4Du1JwtiTJM",
+        "thumb": "https://i.ytimg.com/vi/4Du1JwtiTJM/maxresdefault.jpg"
+      },
+      {
+        "tittle": "RIOT is running out of ideas",
+        "url": "https://www.youtube.com/watch?v=QsyX74zoG0k",
+        "thumb": "https://i.ytimg.com/vi/QsyX74zoG0k/maxresdefault.jpg"
+      },
+      {
+        "tittle": "K'Sante In ARAM - Best of LoL Streams 2188",
+        "url": "https://www.youtube.com/watch?v=PKY6MvTJNqc",
+        "thumb": "https://i.ytimg.com/vi/PKY6MvTJNqc/maxresdefault.jpg"
+      },
+      {
+        "tittle": "CHO'GATH REWORK LEAKED - League of Legends",
+        "url": "https://www.youtube.com/watch?v=NwKtPnlqs-w",
+        "thumb": "https://i.ytimg.com/vi/NwKtPnlqs-w/maxresdefault.jpg"
+      }
+    ],
+    "front-end": [
+      {
+        "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+        "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+        "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+      },
+      {
+        "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+        "url": "https://www.youtube.com/watch?v=llF6vD-RljE",
+        "thumb": "https://img.youtube.com/vi/llF6vD-RljE/hqdefault.jpg"
+      },
+      {
+        "title": "A Primeira Aula de Flutter Que Todo Mundo Deveria Ter",
+        "url": "https://www.youtube.com/watch?v=J4BVaXkwmM8",
+        "thumb": "https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
+      },
+      {
+        "title": "O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?",
+        "url": "https://www.youtube.com/watch?v=dp0zB4n3MUs",
+        "thumb": "https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
+      },
+      {
+        "title": "Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador",
+        "url": "https://www.youtube.com/watch?v=Yf0rC7dERjg",
+        "thumb": "https://img.youtube.com/vi/Yf0rC7dERjg/hqdefault.jpg"
+      },
+      {
+        "title": "Como Foi Programado um App Que Faz Mágica",
+        "url": "https://www.youtube.com/watch?v=I36seuWUe5s",
+        "thumb": "https://img.youtube.com/vi/I36seuWUe5s/hqdefault.jpg"
+      },
+      {
+        "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
+        "url": "https://www.youtube.com/watch?v=yS7AcF-xRUg",
+        "thumb": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
+      },
+      {
+        "title": "5 Erros Históricos do CSS",
+        "url": "https://www.youtube.com/watch?v=HNjkqONzGS0",
+        "thumb": "https://img.youtube.com/vi/HNjkqONzGS0/hqdefault.jpg"
+      },
+      {
+        "title": "Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End",
+        "url": "https://www.youtube.com/watch?v=d9c0r-J6CdM",
+        "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
+      }
+    ],
+    "back-end": [
+      {
+        "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+        "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
+        "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+      },
+      {
+        "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+        "url": "https://www.youtube.com/watch?v=8q36rNS5yVo",
+        "thumb": "https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
+      },
+
+      {
+        "title": "O que é o Java? #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=90NcVNsKGik",
+        "thumb": "https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
+      },
+      {
+        "title": "O que é Machine Learning? #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
+        "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
+      },
+      {
+        "title": "A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=imB0QVoNrGc",
+        "thumb": "https://img.youtube.com/vi/imB0QVoNrGc/hqdefault.jpg"
+      },
+      {
+        "title": "Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=ldRbnpy-qQs",
+        "thumb": "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg"
+      },
+      {
+        "title": "O que é o C#? #HipstersPontoTube",
+        "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
+        "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+      }
+    ]
+  }
+}
