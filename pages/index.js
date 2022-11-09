@@ -1,15 +1,13 @@
+import React from "react";
 import config from "../config.json";
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
-import Menu from "../src/components/Menu";
+import Menu from "../src/components/Menu/Componentes/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
+import { StyledFavs } from "../src/components/Favoritos";
 
 function HomePage() {
-  const estilosDaHomePage = {
-    // backgroundColor: "red"
-  };
-
-  // console.log(config.playlists);
+  const [valorDoFiltro, setValorDoFiltro] = React.useState("");
 
   return (
     <>
@@ -19,16 +17,31 @@ function HomePage() {
           display: "flex",
           flexDirection: "column",
           flex: 1,
-          // backgroundColor: "red",
         }}
       >
-        <Menu />
+        <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro}/>
+        {// <Banner propriedades={config.banner}/>
+        }
         <Header />
-        <Timeline playlists={config.playlists}>Conteúdo</Timeline>
+        <Timeline searchValue={valorDoFiltro} playlists={config.playlists}/>
+        <Favorites favs={config.favs}/>
+        
+        
       </div>
     </>
   );
 }
+
+{/** 
+function Banner(){
+  return(
+    <StyledBanner>
+      <img src={`${config.banner}`}/>
+    </StyledBanner>
+  )
+}
+*/}
+
 
 export default HomePage;
 
@@ -47,7 +60,7 @@ const StyledHeader = styled.div`
     border-radius: 50%;
   }
   .user-info {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -55,9 +68,17 @@ const StyledHeader = styled.div`
     gap: 16px;
   }
 `;
+const StyledBanner = styled.div`
+  background-color: blue;
+  background-image: url(${({banner}) => banner});
+  height: 230px;
+
+
+`
 function Header() {
   return (
     <StyledHeader>
+      <StyledBanner banner={config.banner}/>
       {/* <img src="banner" /> */}
       <section className="user-info">
         <img src={`https://github.com/${config.github}.png`} />
@@ -70,26 +91,28 @@ function Header() {
   );
 }
 
-function Timeline(propriedades) {
+function Timeline({searchValue, ...propriedades}) {
   // console.log("Dentro do componente", propriedades.playlists);
   const playlistNames = Object.keys(propriedades.playlists);
   // Statement
   // Retorno por expressão
   return (
     <StyledTimeline>
-      {playlistNames.map((playlistName) => {
+      {playlistNames.map((playlistName, id) => {
         const videos = propriedades.playlists[playlistName];
-        console.log(playlistName);
-        console.log(videos);
         return (
-          <section>
+          <section key={id}>
             <h2>{playlistName}</h2>
             <div>
-              {videos.map((video) => {
+              {videos.filter((video) => {
+                  const titleNormalized = video.title.toLowerCase();
+                  const searchValueNormalized = searchValue.toLowerCase();
+                  return titleNormalized.includes(searchValueNormalized)
+              }).map((videos, id2) => {
                 return (
-                  <a href={video.url}>
-                    <img src={video.thumb} />
-                    <span>{video.title}</span>
+                  <a href={videos.url} key={id2} target="_blank">
+                    <img src={videos.thumb} />
+                    <span>{videos.title}</span>
                   </a>
                 );
               })}
@@ -99,4 +122,31 @@ function Timeline(propriedades) {
       })}
     </StyledTimeline>
   );
+}
+
+function Favorites(props){
+  const favoritesNames = Object.keys(props.favs)
+  return(
+    <StyledFavs>
+      {favoritesNames.map((favoritesName, id) => {
+        const favoritos = props.favs[favoritesName];
+        return (
+            <section key={id}>
+              <h2>{favoritesNames}</h2>
+                <div>
+                  {favoritos.map((favoritos, id2) => {
+                    return (
+                        <a href={"#"} key={id2}>
+                          <img src={favoritos.picture}/>
+                          <span>{favoritos.name}</span>
+                        </a>
+                    )
+                  })}
+                </div>
+            </section>
+        )
+      })}
+
+    </StyledFavs>
+  )
 }

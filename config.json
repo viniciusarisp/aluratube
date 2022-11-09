@@ -2,45 +2,46 @@
   "name": "Vinicius Aristimunha (Ari)",
   "job": "IT Student",
   "github": "viniciusarisp",
+  "banner": "https://images.unsplash.com/photo-1555680510-34daedadbdb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
   "playlists": {
     "jogos": [
       {
-        "tittle": "Brazil’s Lula da Silva, explained",
+        "title": "Brazil’s Lula da Silva, explained",
         "url": "https://www.youtube.com/watch?v=rtAWPMLYMpQ",
         "thumb": "https://i.ytimg.com/vi/rtAWPMLYMpQ/maxresdefault.jpg"
       },
       {
-        "tittle": "Joji - Glimpse of Us",
+        "title": "Joji - Glimpse of Us",
         "url": "https://www.youtube.com/watch?v=FvOpPeKSf_4",
         "thumb": "https://i.ytimg.com/vi/FvOpPeKSf_4/maxresdefault.jpg"
       },
       {
-        "tittle": "Nagas imitando o Guiven idêntico kkkkkkkkkkk",
+        "title": "Nagas imitando o Guiven idêntico kkkkkkkkkkk",
         "url": "https://www.youtube.com/watch?v=kh0k_W40F14",
         "thumb": "https://i.ytimg.com/vi/kh0k_W40F14/maxresdefault.jpg"
       },
       {
-        "tittle": "Thebausffs is Playing Against the New Champ K'Sante",
+        "title": "Thebausffs is Playing Against the New Champ K'Sante",
         "url": "https://www.youtube.com/watch?v=LAaG3D5ZYjk",
         "thumb": "https://i.ytimg.com/vi/LAaG3D5ZYjk/maxresdefault.jpg"
       },
       {
-        "tittle": "Joji - Glimpse Of Us X Attack On Titan OST - Call Of Silence (NEWJOR Mashup)",
+        "title": "Joji - Glimpse Of Us X Attack On Titan OST - Call Of Silence (NEWJOR Mashup)",
         "url": "https://www.youtube.com/watch?v=4Du1JwtiTJM",
         "thumb": "https://i.ytimg.com/vi/4Du1JwtiTJM/maxresdefault.jpg"
       },
       {
-        "tittle": "RIOT is running out of ideas",
+        "title": "RIOT is running out of ideas",
         "url": "https://www.youtube.com/watch?v=QsyX74zoG0k",
         "thumb": "https://i.ytimg.com/vi/QsyX74zoG0k/maxresdefault.jpg"
       },
       {
-        "tittle": "K'Sante In ARAM - Best of LoL Streams 2188",
+        "title": "K'Sante In ARAM - Best of LoL Streams 2188",
         "url": "https://www.youtube.com/watch?v=PKY6MvTJNqc",
         "thumb": "https://i.ytimg.com/vi/PKY6MvTJNqc/maxresdefault.jpg"
       },
       {
-        "tittle": "CHO'GATH REWORK LEAKED - League of Legends",
+        "title": "CHO'GATH REWORK LEAKED - League of Legends",
         "url": "https://www.youtube.com/watch?v=NwKtPnlqs-w",
         "thumb": "https://i.ytimg.com/vi/NwKtPnlqs-w/maxresdefault.jpg"
       }
@@ -128,6 +129,30 @@
         "title": "O que é o C#? #HipstersPontoTube",
         "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
         "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+      }
+    ]
+  },
+  "favs": {
+    "AluraTube Favoritos ⭐":[
+      {
+        "name": "Tanjiro",
+        "picture": "https://i.pinimg.com/originals/3b/b7/46/3bb746efe9e3f38f946f31db4dd1dba5.jpg"
+      },
+      {
+        "name": "Rengoku",
+        "picture": "https://i.pinimg.com/736x/b1/1f/17/b11f17eb4b20068aebe32298905ba567.jpg"
+      },
+      {
+        "name": "Sakura",
+        "picture": "https://dk2dv4ezy246u.cloudfront.net/widgets/sSEDTwRiphS1_large.jpg"
+      },
+      {
+        "name": "Anya",
+        "picture": "https://i.pinimg.com/736x/25/ef/67/25ef67e9c0edd0ce55a2022cf2fc4177.jpg"
+      },
+      {
+        "name": "Pocco",
+        "picture": "https://i.pinimg.com/originals/8b/5f/04/8b5f04525a528637c52dc12298e9e8e3.png"
       }
     ]
   }
