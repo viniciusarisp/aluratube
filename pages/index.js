@@ -71,6 +71,8 @@ const StyledHeader = styled.div`
 const StyledBanner = styled.div`
   background-color: blue;
   background-image: url(${({banner}) => banner});
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 230px;
 
 
