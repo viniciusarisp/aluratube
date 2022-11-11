@@ -1,7 +1,10 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
-import ColorModeProvider, { ColorModeContext } from "../src/components/Menu/Componentes/ColorMode";
+import ColorModeProvider, {
+      ColorModeContext,
+} from "../src/components/Menu/Componentes/ColorMode";
+import RegisterVideo from "../src/components/RegisterVideo";
 
 const theme = {
       light: {
@@ -20,12 +23,12 @@ const theme = {
       },
 };
 
-function ProviderWrapper (props) {
+function ProviderWrapper(props) {
       return (
             <ColorModeProvider initialMode={"dark"}>
                   {props.children}
-            </ColorModeProvider> 
-      )
+            </ColorModeProvider>
+      );
 }
 
 // _app.js -> Definições globais do NextJS
@@ -33,21 +36,21 @@ function ProviderWrapper (props) {
 // ColorModeProvider => prove o state de light ou dark para o app
 function MyApp({ Component, pageProps }) {
       const contexto = React.useContext(ColorModeContext);
-      console.log(contexto.mode)
+      console.log(contexto.mode);
 
-            return (
-                  <ThemeProvider theme={theme[contexto.mode]}>
-                        <CSSReset />
-                        <Component {...pageProps} />
-                  </ThemeProvider>
+      return (
+            <ThemeProvider theme={theme[contexto.mode]}>
+                  <CSSReset />
+                  <Component {...pageProps} />
+                  <RegisterVideo />
+            </ThemeProvider>
       );
 }
-
 
 export default function _App(props) {
       return (
             <ProviderWrapper>
-                  <MyApp {...props}/>
+                  <MyApp {...props} />
             </ProviderWrapper>
-      )
+      );
 }
